@@ -1,0 +1,33 @@
+{
+  "name": "andresreyesdev/nova-chilean-peso",
+  "description": "A Laravel Nova field.",
+  "keywords": [
+    "laravel",
+    "nova",
+    "chile",
+    "peso",
+    "currency",
+    "field"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AndresReyesDev\\PesoChile\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AndresReyesDev\\PesoChile\\FieldServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
